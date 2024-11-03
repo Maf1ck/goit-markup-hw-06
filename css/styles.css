@@ -186,9 +186,6 @@ textarea,
 button {
     font-family: inherit;
 }
-
-/* -------------- SHARED-STYLE -------------*/
-
 .container {
     max-width: 320px;
     padding: 0 16px;
@@ -249,9 +246,6 @@ button {
     width: 40px;
     height: 40px;
 }
-
-/* -------------- HEADER ------------------- */
-
 .header {
     border-bottom: 1px solid #e7e9fc;
     max-width: 320px;
@@ -406,9 +400,6 @@ button {
         letter-spacing: 0.02em;
     }
 }
-
-/* --------------------- MOB-MENU ------------------ */
-
 .mob-menu {
     position: fixed;
     background-color: #fff;
@@ -492,9 +483,6 @@ button {
         display: none;
     }
 }
-
-/* --------------------- HERO ------------------ */
-
 .hero-section {
     background-color: #2e2f42;
     padding: 72px 0;
@@ -610,9 +598,6 @@ button {
         }
     }
 }
-
-/* ----------------------FEATURES------------------ */
-
 .features-container-icons {
     display: none;
 }
@@ -691,8 +676,6 @@ button {
         width: calc((100% - 3 * 24px) / 4);
     }
 }
-
-/* ----------------------MEMBERS------------------------ */
 
 .members {
     background-color: #f4f4fd;
@@ -777,8 +760,6 @@ button {
     }
 }
 
-/* ---------------------PORTFOLIO------------------  */
-
 .portfolio-title {
     margin-bottom: 72px;
 }
@@ -861,8 +842,6 @@ button {
             0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
 }
-
-/* ---------------------------FOOTER------------------------- */
 
 .footer {
     background-color: #2e2f42;
@@ -1035,7 +1014,6 @@ button {
     }
 }
 
-/* ----------------------- MODAL ------------------------------ */
 
 .backdrop {
     background-color: rgba(46, 47, 66, 0.4);
