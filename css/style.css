@@ -167,7 +167,7 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
-<<<<<<< HEAD
+
   @media screen and (min-width: 768px) {
     .main-header {
         max-width: 768px;
@@ -362,8 +362,7 @@ img{
             url(../images/Dark-bg.jpg);
     }
 }
-=======
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
+
 .title-hone {
     margin-left: auto;
     margin-right: auto;
@@ -402,7 +401,7 @@ img{
     cursor: pointer;
     background-color: #404BBF;
 }
-<<<<<<< HEAD
+
 
 @media screen and (min-width: 768px) {
     .section-one {
@@ -450,8 +449,7 @@ img{
         }
     }
 }
-=======
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
+
 .section-two{
     padding: 120px 0;
 }
@@ -488,7 +486,7 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
 }
-<<<<<<< HEAD
+
 @media screen and (min-width: 768px) {
     .div-section-one {
         max-width: 768px;
@@ -552,8 +550,7 @@ img{
         width: calc((100% - 3 * 24px) / 4);
     }
 }
-=======
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
+
 .section-three{
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -627,7 +624,7 @@ img{
 .svg-section-three{
     fill: #f4f4fd;
 }
-<<<<<<< HEAD
+
 @media screen and (min-width: 768px) {
     .section-three>.container {
         padding: 0 108px;
@@ -661,8 +658,7 @@ img{
         width: calc((100% - 3 * 24px) / 4);
     }
 }
-=======
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
+
 .section-four{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -744,7 +740,7 @@ img{
     position: relative;
     overflow: hidden;
 }
-<<<<<<< HEAD
+
 @media screen and (min-width: 768px) {
     .ul-section-four {
         display: flex;
@@ -777,8 +773,7 @@ img{
             0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
 }
-=======
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
+
 .footer-last{
     padding: 100px 0;
 }
@@ -907,7 +902,6 @@ img{
 .svg-email{
     margin-left: 16px;
 }
-<<<<<<< HEAD
 @media screen and (min-width: 768px) {
     .footer-last {
         padding: 96px 108px;
@@ -971,8 +965,6 @@ img{
         border: 1px solid #ffffff;
     }
 }
-=======
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
 
 .backdrop{
     position: fixed;
@@ -1044,18 +1036,11 @@ img{
     margin-bottom: 16px;
 }
 .form-label {
-<<<<<<< HEAD
     display:block;
-=======
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-<<<<<<< HEAD
-=======
-    display: block;
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
     margin-bottom: 4px;
 }
 .input-wrapper {
@@ -1117,11 +1102,8 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-<<<<<<< HEAD
-=======
-    display: inline-flex;
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
     align-items: center;
+    display: inline-flex;
     cursor: pointer;
 }
 .checkbox-custom {
@@ -1179,7 +1161,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon {
 .button-inside-modal:focus .svg-modal {
     fill: #ffffff;
 }
-<<<<<<< HEAD
 @media screen and (min-width: 768px) {
     .modal {
         min-height: 584px;
@@ -1193,7 +1174,6 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon {
         padding-left: 38px;
     }
 }
-=======
 /* Медіа запит для маленьких екранів (мобільні пристрої) */
 @media (max-width: 600px) {
     /* Хедер */
@@ -1502,4 +1482,3 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon {
         width: auto;
     }
 }
->>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
