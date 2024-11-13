@@ -167,6 +167,7 @@ img{
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+<<<<<<< HEAD
   @media screen and (min-width: 768px) {
     .main-header {
         max-width: 768px;
@@ -361,6 +362,8 @@ img{
             url(../images/Dark-bg.jpg);
     }
 }
+=======
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
 .title-hone {
     margin-left: auto;
     margin-right: auto;
@@ -399,6 +402,7 @@ img{
     cursor: pointer;
     background-color: #404BBF;
 }
+<<<<<<< HEAD
 
 @media screen and (min-width: 768px) {
     .section-one {
@@ -446,6 +450,8 @@ img{
         }
     }
 }
+=======
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
 .section-two{
     padding: 120px 0;
 }
@@ -482,6 +488,7 @@ img{
     letter-spacing: 0.02em;
     color: #434455;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 768px) {
     .div-section-one {
         max-width: 768px;
@@ -545,6 +552,8 @@ img{
         width: calc((100% - 3 * 24px) / 4);
     }
 }
+=======
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
 .section-three{
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -618,6 +627,7 @@ img{
 .svg-section-three{
     fill: #f4f4fd;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 768px) {
     .section-three>.container {
         padding: 0 108px;
@@ -651,6 +661,8 @@ img{
         width: calc((100% - 3 * 24px) / 4);
     }
 }
+=======
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
 .section-four{
     padding-top: 120px;
     padding-bottom: 120px;
@@ -732,6 +744,7 @@ img{
     position: relative;
     overflow: hidden;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 768px) {
     .ul-section-four {
         display: flex;
@@ -764,6 +777,8 @@ img{
             0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     }
 }
+=======
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
 .footer-last{
     padding: 100px 0;
 }
@@ -892,6 +907,7 @@ img{
 .svg-email{
     margin-left: 16px;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 768px) {
     .footer-last {
         padding: 96px 108px;
@@ -955,6 +971,8 @@ img{
         border: 1px solid #ffffff;
     }
 }
+=======
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
 
 .backdrop{
     position: fixed;
@@ -1026,11 +1044,18 @@ img{
     margin-bottom: 16px;
 }
 .form-label {
+<<<<<<< HEAD
     display:block;
+=======
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+<<<<<<< HEAD
+=======
+    display: block;
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
     margin-bottom: 4px;
 }
 .input-wrapper {
@@ -1092,6 +1117,10 @@ img{
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
+<<<<<<< HEAD
+=======
+    display: inline-flex;
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
     align-items: center;
     cursor: pointer;
 }
@@ -1150,6 +1179,7 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon {
 .button-inside-modal:focus .svg-modal {
     fill: #ffffff;
 }
+<<<<<<< HEAD
 @media screen and (min-width: 768px) {
     .modal {
         min-height: 584px;
@@ -1163,3 +1193,313 @@ input[type="checkbox"]:checked + .checkbox-label .checkbox-icon {
         padding-left: 38px;
     }
 }
+=======
+/* Медіа запит для маленьких екранів (мобільні пристрої) */
+@media (max-width: 600px) {
+    /* Хедер */
+    .header {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .header-title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .header-nav {
+        display: none; /* Приховуємо меню для мобільних */
+    }
+
+    /* Мейн */
+    .main {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .section-one, .section-two {
+        padding: 20px;
+    }
+
+    .section-one h2, .section-two h2 {
+        font-size: 20px;
+        margin-bottom: 12px;
+    }
+
+    .section-one p, .section-two p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .team-member {
+        display: block;
+        width: 100%;
+        margin-bottom: 16px;
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    /* Футер */
+    .footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer-div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-p-social {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+
+    .email-form {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .email-input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .ul-footer-svg {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .li-footer {
+        margin-bottom: 12px;
+    }
+
+    .submit-button {
+        width: 100%;
+        font-size: 14px;
+    }
+}
+
+/* Медіа запит для планшетів */
+@media (max-width: 768px) {
+    /* Хедер */
+    .header {
+        padding: 20px;
+    }
+
+    .header-title {
+        font-size: 22px;
+    }
+
+    .header-nav {
+        display: block;
+    }
+
+    /* Мейн */
+    .main {
+        padding: 20px;
+    }
+
+    .section-one, .section-two {
+        padding: 30px;
+    }
+
+    .section-one h2, .section-two h2 {
+        font-size: 24px;
+    }
+
+    .section-one p, .section-two p {
+        font-size: 16px;
+    }
+
+    .team-member {
+        display: inline-block;
+        width: 45%;
+        margin-right: 5%;
+        margin-bottom: 16px;
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Футер */
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-div {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .email-form {
+        gap: 18px;
+    }
+
+    .email-input {
+        width: 70%;
+    }
+
+    .ul-footer-svg {
+        gap: 20px;
+    }
+
+    .li-footer {
+        width: 40px;
+        height: 40px;
+    }
+
+    .submit-button {
+        width: auto;
+    }
+}
+
+/* Медіа запит для великих екранів */
+@media (min-width: 1024px) {
+    /* Хедер */
+    .header {
+        padding: 30px;
+    }
+
+    .header-title {
+        font-size: 28px;
+    }
+
+    /* Мейн */
+    .main {
+        padding: 40px;
+    }
+
+    .section-one, .section-two {
+        padding: 40px;
+    }
+
+    .section-one h2, .section-two h2 {
+        font-size: 30px;
+    }
+
+    .section-one p, .section-two p {
+        font-size: 18px;
+    }
+
+    .team-member {
+        display: inline-block;
+        width: 30%;
+        margin-right: 3%;
+        margin-bottom: 16px;
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Футер */
+    .footer {
+        padding: 40px;
+    }
+
+    .footer-div {
+        justify-content: space-between;
+    }
+
+    .email-form {
+        gap: 24px;
+    }
+
+    .email-input {
+        width: 300px;
+    }
+
+    .ul-footer-svg {
+        gap: 30px;
+    }
+
+    .li-footer {
+        width: 50px;
+        height: 50px;
+    }
+
+    .submit-button {
+        width: auto;
+    }
+}
+
+/* Медіа запит для дуже великих екранів */
+@media (min-width: 1440px) {
+    /* Хедер */
+    .header {
+        padding: 40px;
+    }
+
+    .header-title {
+        font-size: 32px;
+    }
+
+    /* Мейн */
+    .main {
+        padding: 50px;
+    }
+
+    .section-one, .section-two {
+        padding: 50px;
+    }
+
+    .section-one h2, .section-two h2 {
+        font-size: 36px;
+    }
+
+    .section-one p, .section-two p {
+        font-size: 20px;
+    }
+
+    .team-member {
+        display: inline-block;
+        width: 22%;
+        margin-right: 3%;
+        margin-bottom: 20px;
+    }
+
+    .team-member img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Футер */
+    .footer {
+        padding: 50px;
+    }
+
+    .footer-div {
+        justify-content: space-between;
+    }
+
+    .email-form {
+        gap: 30px;
+    }
+
+    .email-input {
+        width: 350px;
+    }
+
+    .ul-footer-svg {
+        gap: 40px;
+    }
+
+    .li-footer {
+        width: 60px;
+        height: 60px;
+    }
+
+    .submit-button {
+        width: auto;
+    }
+}
+>>>>>>> 66f07b0f0c0d8d2befcb4d3eb721eb8b7936126c
